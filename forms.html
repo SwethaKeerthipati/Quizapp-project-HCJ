@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-App Add-Questions</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/form.js" defer></script>
+
+
+  </head>
+  <body>
+    <header class="header-section">
+      <h2>Add your Favourite Questions!😉</h2>
+    </header>
+
+    <main class="form-section">
+      <h2>Add Question</h2>
+      <form id="question-form">
+        <div class="form-item">
+          <label for="question">Your question:</label>
+          <textarea id="question" name="question" rows="5" maxlength ="150" required></textarea>
+          <span id="question-count"></span>
+        </div>
+
+        <div class="form-item">
+          <label for="answer">Your answer:</label>
+          <textarea id="answer" name="answer" rows="5" maxlength ="150" required></textarea>
+          <span id="answer-count"></span>
+        </div>
+
+        <div class="form-item">
+          <label for="tag">Tag:</label>
+          <input type="text" id="tag" name="tag" required />
+        </div>
+
+        <div class="form-item">
+          <button type="submit">Submit</button>
+        </div>
+        <hr>
+        <div id="submitted-questions">
+
+        </div>
+      </form>
+      <br>
+      <br>
+      <br>
+    </main>
+    <footer class="navigation">
+        <ul class="footer-list">
+          <li class="footer-list-item">
+
+            <a class="footer-link" href="index.html" id="home-link">
+              <i class="fas fa-home fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a class="footer-link" href="bookmarks.html" id="bookmarks-link">
+              <i class="fas fa-bookmark fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a class="footer-link" href="#" id="form-link">
+              <i class="fa-solid fa-circle-plus fa-2xl"></i>
+            </a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a class="footer-link" href="profile.html" id="profile-link">
+              <i class="fas fa-user fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </footer>
+  </body>
+</html>

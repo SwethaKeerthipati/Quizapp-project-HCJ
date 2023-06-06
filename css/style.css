@@ -55,16 +55,18 @@ body {
 }
 
 .answer-card:hover {
-  background-color: pink;
+  background-color: rgb(221, 150, 216);
 }
 
 .answer {
-  display: none;
+  /* display: none; */
   font-weight: bold;
   margin-top: 10px;
   text-align: center;
 }
-
+.hidden {
+  display: none;
+}
 .tags {
   display: flex;
   justify-content: center;
@@ -91,6 +93,22 @@ body {
   right: 10px;
 }
 
+.bookmark-button {
+  cursor: pointer;
+}
+
+.bookmark-button i {
+  transition: color 1s ease;
+}
+
+.bookmark-button.bookmarked i {
+  color: rgb(
+    219,
+    16,
+    219
+  ); /* Change the color to your desired bookmarked state */
+}
+
 .bookmark {
   background-color: transparent;
   border: none;
@@ -104,7 +122,7 @@ body {
     top: 7rem; */
 }
 
-/* Footer Styles */
+/* Footer Styles  */
 
 .navigation {
   background-color: #8ad2e0;
@@ -255,7 +273,7 @@ body {
   color: #f38b0c;
 }
 #profile-link {
-  color: #f38b0c;
+  /* color: #f38b0c; */
 }
 
 .footer-link {

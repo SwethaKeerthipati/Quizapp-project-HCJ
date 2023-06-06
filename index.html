@@ -8,7 +8,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/index.js" defer></script>
+   
     <title>My Quiz App</title>
   </head>
   <body>
@@ -19,120 +21,121 @@
         <section class="question-card">
           <article>
             <h2 class="question">What is the largest continent?</h2>
-            <button class="answer-card" type="button">Show answer</button>
-            <p class="answer">Asia</p>
+            <button class="answer-card" type="button" data-js="show-answer">Show answer</button>
+            <p class="answer" data-js="answer-to-be-shown" hidden>Asia</p>
             <ul class="tags">
               <li class="tag-items">#Europe</li>
               <li class="tag-items">#Asia</li>
               <li class="tag-items">#Antarctica</li>
             </ul>
             <div class="bookmark-button">
-                 <i class="fa-solid fa-bookmark fa-2xl"></i>
-              </div>
+            <i class="fa-solid fa-bookmark fa-xl"></i>              
+          </div>
             </article>
           </section>
+          
           <section class="question-card">
             <article>
               <h2 class="question">What is the capital of France?</h2>
-              <button class="answer-card" type="button">Show answer</button>
-              <p class="answer">Paris</p>
+              <button class="answer-card" type="button" data-js="show-answer">Show answer</button>
+              <p class="answer" data-js="answer-to-be-shown" hidden>Paris</p>
               <ul class="tags">
                 <li class="tag-items">#France</li>
                 <li class="tag-items">#Capital</li>
                 <li class="tag-items">#Europe</li>
               </ul>
               <div class="bookmark-button">
-                 <i class="fa-regular fa-bookmark fa-2xl"></i>
-               </div>
+              <i class="fa-solid fa-bookmark fa-xl"></i>               
+            </div>
             </article>
           </section>
           <section class="question-card">
             <article>
               <h2 class="question">Which planet is known as the Red Planet?</h2>
-              <button class="answer-card" type="button">Show answer</button>
-              <p class="answer">Mars</p>
+              <button class="answer-card" type="button" data-js="show-answer">Show answer</button>
+              <p class="answer" data-js="answer-to-be-shown" hidden>Mars</p>
               <ul class="tags">
                 <li class="tag-items">#Space</li>
                 <li class="tag-items">#Planet</li>
                 <li class="tag-items">#Red</li>
               </ul>
               <div class="bookmark-button">
-                <i class="fa-solid fa-bookmark fa-2xl"></i>
+                <i class="fa-solid fa-bookmark fa-xl"></i>
                </div>
             </article>
           </section>
           <section class="question-card">
             <article>
               <h2 class="question">What is the largest ocean on Earth?</h2>
-              <button class="answer-card" type="button">Show answer</button>
-              <p class="answer">Pacific Ocean</p>
+              <button class="answer-card" type="button" data-js="show-answer">Show answer</button>
+              <p class="answer" data-js="answer-to-be-shown" hidden>Pacific Ocean</p>
               <ul class="tags">
                 <li class="tag-items">#Ocean</li>
                 <li class="tag-items">#Pacific</li>
                 <li class="tag-items">#Water</li>
               </ul>
               <div class="bookmark-button">
-                 <i class="fa-regular fa-bookmark fa-2xl"></i>
+                <i class="fa-solid fa-bookmark fa-xl"></i>
                </div>
             </article>
           </section>
           <section class="question-card">
             <article>
               <h2 class="question">Who wrote the play Romeo and Juliet?</h2>
-              <button class="answer-card" type="button">Show answer</button>
-              <p class="answer">William Shakespeare</p>
+              <button class="answer-card" type="button" data-js="show-answer">Show answer</button>
+              <p class="answer" data-js="answer-to-be-shown" hidden>William Shakespeare</p>
               <ul class="tags">
                 <li class="tag-items">#Literature</li>
                 <li class="tag-items">#Play</li>
                 <li class="tag-items">#Shakespeare</li>
               </ul>
               <div class="bookmark-button">
-                <i class="fa-regular fa-bookmark fa-2xl"></i> 
+                <i class="fa-solid fa-bookmark fa-xl"></i>
              </div>
             </article>
           </section>
           <section class="question-card">
             <article>
               <h2 class="question">What is the largest animal on Earth?</h2>
-              <button class="answer-card" type="button">Show answer</button>
-              <p class="answer">Blue Whale</p>
+              <button class="answer-card" type="button" data-js="show-answer">Show answer</button>
+              <p class="answer" data-js="answer-to-be-shown" hidden>Blue Whale</p>
               <ul class="tags">
                 <li class="tag-items">#Animal</li>
                 <li class="tag-items">#Blue Whale</li>
                 <li class="tag-items">#Marine</li>
               </ul>
               <div class="bookmark-button">
-                <i class="fa-regular fa-bookmark fa-2xl"></i>
+                <i class="fa-solid fa-bookmark fa-xl"></i>
              </div>
             </article>
           </section>
           <section class="question-card">
             <article>
               <h2 class="question">What is the currency of Japan?</h2>
-              <button class="answer-card" type="button">Show answer</button>
-              <p class="answer">Japanese Yen</p>
+              <button class="answer-card" type="button" data-js="show-answer">Show answer</button>
+              <p class="answer" data-js="answer-to-be-shown" hidden>Japanese Yen</p>
               <ul class="tags">
                 <li class="tag-items">#Currency</li>
                 <li class="tag-items">#Japan</li>
                 <li class="tag-items">#Yen</li>
               </ul>
               <div class="bookmark-button">
-                <i class="fa-solid fa-bookmark fa-2xl"></i>
+                <i class="fa-solid fa-bookmark fa-xl"></i>
               </div>
             </article>
           </section>
           <section class="question-card">
             <article>
               <h2 class="question">Which country is home to the kangaroo?</h2>
-              <button class="answer-card" type="button">Show answer</button>
-              <p class="answer">Australia</p>
+              <button class="answer-card" type="button" data-js="show-answer">Show answer</button>
+              <p class="answer" data-js="answer-to-be-shown" hidden>Australia</p>
               <ul class="tags">
                 <li class="tag-items">#Australia</li>
                 <li class="tag-items">#Animal</li>
                 <li class="tag-items">#Kangaroo</li>
               </ul>
               <div class="bookmark-button">
-                 <i class="fa-solid fa-bookmark fa-2xl"></i>
+                 <i class="fa-solid fa-bookmark fa-xl"></i>
                 </div>
             </article>
           </section>
@@ -152,6 +155,13 @@
               <li class="footer-list-item">
                 <a class="footer-link" href="bookmarks.html" id="bookmarks-link">
                   <i class="fas fa-bookmark fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+            <ul class="footer-list">
+              <li class="footer-list-item">
+                <a class="footer-link" href="forms.html" id="form-link">
+                  <i class="fa-solid fa-circle-plus fa-2xl"></i>
                 </a>
               </li>
             </ul>
